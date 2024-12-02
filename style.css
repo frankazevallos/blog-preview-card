@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+  }
+
+/* div {
+    border: 1px solid black;
+} */
+
+body{
+    width: 1440px;
+    height: 100vh;
+    background-color: hsl(47, 88%, 63%);
+    font-family: "Figtree";
+    color: hsl(0, 0%, 7%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width: 360px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    border: 1px solid black;
+    align-self: center;
+    box-shadow: 10px 10px 0 0 black;
+}
+
+.image img{
+    height: 100%;
+    width: 100%;
+    border-radius: 32px;
+    padding: 20px;
+}
+.label{
+    padding:  10px 20px;
+}
+.label span{
+    background-color: hsl(47, 88%, 63%);
+    padding: 10px;
+    font-weight: 800;
+    font-size: 13px;
+    border-radius: 5px;
+        
+}
+.date{
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 700;
+    
+}
+.title-blog{
+    padding: 10px 20px;
+    font-weight: 800;
+    font-size: 23px;
+    
+}
+.title-blog :hover{
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;
+}
+.description p{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 5px 20px;
+    color: hsl(0, 0%, 42%);
+    
+}
+
+.autor{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 25px;
+}
+
+.photo{
+    width: 35px;
+}
+
+.photo img{
+    width: 100%;
+}
+.name-autor{
+    padding: 0px 10px;
+    font-size: 14px;
+    font-weight: 800;
+}
+footer{
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    bottom: 0px;
+}
+
+@media only screen and (max-width: 1030px){
+    Body {
+        width: 980px;
+    }
+}
+@media only screen and (max-width: 730px){
+    Body {
+        width: 670px;
+    }
+}
+@media only screen and (max-width: 400px){
+    Body {
+        width: 375px;
+    }
+}
