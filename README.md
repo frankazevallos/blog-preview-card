@@ -9,7 +9,7 @@
 
 
 
-This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/learning-paths/getting-started-on-frontend-mentor-XJhRWRREZd/steps/6737e604d54b5cb1de2570be/challenge/start). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Blog preview card challenge on Frontend Mentor](https://www.frontendmentor.io/learning-paths/getting-started-on-frontend-mentor-XJhRWRREZd/steps/6737e604d54b5cb1de2570be/challenge/start). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
 
